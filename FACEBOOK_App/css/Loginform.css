@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #dfe3ee;
+}
+
+.textbox{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+h1{
+    font-size: 50px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    width: 500px;
+}
+
+.container{  
+    
+    margin-top: -195px;
+    margin-right: 160px;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+}
+
+.form{
+    float: right;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.form input{
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 8px;
+    padding: 17px;
+    width: 299px;
+}
+button{
+    margin-top: 15px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #1877f2;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+p{
+    background-color: white;
+    font-size: 16px;
+    color: #1877f2;
+    margin-top: 10px;
+}
+p a{
+    color: #1877f2;
+    background-color: white;
+}
+
+.btn button{
+    background-color:#1b9c24 ;
+}
+
+#email_error,
+#pass_error{
+    margin-top: 5px;
+    color: #C62828;
+    background: rgba(255,0, 0, 0.1);
+    display: none;
+}
